@@ -6,4 +6,5 @@ alert(`Ecco come promesso una password per te!`);
 
 
 
-document.getElementById("passwordSuggest").innerHTML = `${name}${surname}${color}22`;
+const password = document.getElementById("passwordSuggest");
+password.innerHTML = `${name}${surname}${color}22`;
